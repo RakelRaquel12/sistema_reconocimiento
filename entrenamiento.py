@@ -37,4 +37,3 @@ face_recognizer.write('modeloLBPHFace.xml')
 
 #face_recognizer.write('modeloFisherFace.xml')
 print("modelo almanecado")
-

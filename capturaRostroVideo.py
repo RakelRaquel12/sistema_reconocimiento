@@ -9,7 +9,7 @@ dataPath = 'C:/Users/Lyria/Documents/raquel_ia2/data'
 personPath = dataPath+"/"+personName
 if not os.path.exists(personPath):
 	os.makedirs(personPath)
-
+#cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 cap = cv2.VideoCapture('Sola3.mp4')
 faceClassif = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
 
