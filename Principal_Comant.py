@@ -212,7 +212,7 @@ def entrenamiento():
 
     face_recognizer.train(faceDataEntre, np.array(labelsEntre))
 
-    face_recognizer.write('C:UsersLyriaDocumentsraquel_ia/modeloLBPHFace.xml')
+    face_recognizer.write('C:/Users/Lyria/Documents/raquel_ia/modeloLBPHFace.xml')
 
     #face_recognizer.write('modeloFisherFace.xml')
     print("modelo almanecado")
@@ -233,15 +233,15 @@ def onVideoPrincipal():
     video_Stream_principal()
 
 def offVideoPrincipal():
-    global video
-    video.release()
+    global video2
+    video2.release()
 
 def onVideoSecundario():
     video_Stream()
 
 def offVideoSecundario():
-    global video2
-    video2.release()
+    global video
+    video.release()
 
 # Creamos la ventana principal
 root = Tk()
