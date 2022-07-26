@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-dataPath = 'C:/Users/Lyria/Documents/raquel_ia2/data'
+dataPath = 'G:\auxiliar investigacion\sistema\Nueva carpeta\sistema_\data'
 peopleList = os.listdir(dataPath)
 print("lista de personas",peopleList)
 
